@@ -57,7 +57,7 @@ resource "azurerm_kubernetes_cluster" "k8s" {
         }
     }
 
-    tags =n{
+    tags ={
         Environment = "Development"
     }
 }
