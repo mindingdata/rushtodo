@@ -1,6 +1,10 @@
 variable "client_id" {}
 variable "client_secret" {}
 
+
+variable "database_user" {}
+variable "database_password" {}
+
 variable "agent_count" {
     default = 1
 }
