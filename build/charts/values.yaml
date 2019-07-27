@@ -1,0 +1,10 @@
+replicaCount: 1
+image:
+  useImagePullSecrets: false
+  pullPolicy: Always
+service:
+  internalPort: 80
+  externalPort: 80
+ingress:
+  enabled: true
+  basedomain: rushtodo-k8s-80590e5d.hcp.centralus.azmk8s.io # replace with your own from the portal

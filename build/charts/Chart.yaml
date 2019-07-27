@@ -1,0 +1,4 @@
+apiVersion: v1
+description: Rush Todo Application
+name: rushtodo
+version: v1.0.0
