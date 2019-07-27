@@ -12,3 +12,4 @@ FROM mcr.microsoft.com/dotnet/core/aspnet:2.2
 WORKDIR /app
 COPY --from=build-env /app/RushTodo.Web/out .
 ENTRYPOINT ["dotnet", "RushTodo.Web.dll"]
+EXPOSE 80
